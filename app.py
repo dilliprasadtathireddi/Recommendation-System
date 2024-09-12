@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 
 st.set_page_config(page_title="Recommendation System",page_icon=":books:", layout='wide',initial_sidebar_state='auto')
-#st.logo("/Users/dilliprasadtathireddi/Recommandation-System/pythonProject/img.png")
+st.logo("https://www.shutterstock.com/image-vector/creative-black-open-book-logo-vector-2348154553")
 st.header("Book Recommendation System")
 st.markdown("**Welcome to the Book Recommendation System. You can search for books and get recommendations based on your search.**")
 st.markdown("This site uses Collaborative Filtering to recommend books to users. Collaborative Filtering is a technique used by websites like Amazon, Netflix, etc. to recommend items to users based on their past interactions with the system.")
