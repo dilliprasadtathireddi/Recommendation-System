@@ -60,9 +60,9 @@ if st.sidebar.button("Search"):
                     st.text(recommandation(selected_book)[book_idx][0])
                     st.text(recommandation(selected_book)[book_idx][1])
 #import data
-books = pd.read_csv('~/Recommandation-System/pythonProject/books.csv')
-ratings = pd.read_csv('~/Recommandation-System/pythonProject/ratings.csv')
-users = pd.read_csv('~/Recommandation-System/pythonProject/users.csv')
+books = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Books.csv')
+ratings = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Ratings.csv')
+users = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Users.csv)
 st.sidebar.title("Used Data sets")
 if st.sidebar.button("Show Data sets"):
     st.subheader("Books Data")
