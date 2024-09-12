@@ -60,15 +60,15 @@ if st.sidebar.button("Search"):
                     st.text(recommandation(selected_book)[book_idx][0])
                     st.text(recommandation(selected_book)[book_idx][1])
 #import data
-books = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Books.csv')
-ratings = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Ratings.csv')
-users = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Users.csv')
-st.sidebar.title("Used Data sets")
-if st.sidebar.button("Show Data sets"):
-    st.subheader("Books Data")
-    st.dataframe(books)
-    st.subheader("Ratings Data")
-    st.dataframe(ratings)
-    st.subheader("Users Data")
-    st.dataframe(users)
+#books = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Books.csv')
+#ratings = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Ratings.csv')
+#users = pd.read_csv('https://github.com/dilliprasadtathireddi/Recommendation-System/blob/main/Users.csv')
+#st.sidebar.title("Used Data sets")
+#if st.sidebar.button("Show Data sets"):
+    #st.subheader("Books Data")
+    #st.dataframe(books)
+    #st.subheader("Ratings Data")
+    #st.dataframe(ratings)
+    #st.subheader("Users Data")
+    #st.dataframe(users)
 
