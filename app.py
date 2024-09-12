@@ -60,13 +60,13 @@ if st.sidebar.button("Search"):
                     st.text(recommandation(selected_book)[book_idx][0])
                     st.text(recommandation(selected_book)[book_idx][1])
 #import data
-books = pd.read_csv('Books.csv')
-ratings = pd.read_csv('Ratings.csv')
+#books = pd.read_csv('Books.csv')
+#ratings = pd.read_csv('Ratings.csv')
 #users = pd.read_csv('Users.csv')
-st.sidebar.title("Used Data sets")
-if st.sidebar.button("Show Data sets"):
-    st.subheader("Books Data")
-    st.dataframe(books)
+#st.sidebar.title("Used Data sets")
+#if st.sidebar.button("Show Data sets"):
+    #st.subheader("Books Data")
+    #st.dataframe(books)
     #st.subheader("Ratings Data")
     #st.dataframe(ratings)
     #st.subheader("Users Data")
